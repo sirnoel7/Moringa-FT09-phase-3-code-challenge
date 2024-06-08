@@ -1,7 +1,5 @@
 from database.connection import get_db_connection
 
-
-
 class Magazine:
     def __init__(self, id, name, category):
         self._id = id
